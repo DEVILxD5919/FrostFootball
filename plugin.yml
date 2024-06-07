@@ -1,0 +1,16 @@
+name: Frost-Football
+version: 1.0.0
+api: 5.0.0
+main: devil\football\Football
+author: _devil_xd
+
+permissions:
+  FrostFootball.use.cmd:
+    default: op
+    description: Allow players to use the football command
+  FrostFootball.spawn.cmd:
+    default: op
+    description: Allow players to spawn footballs
+  FrostFootball.remove.cmd:
+    default: op
+    description: Allow players to remove all footballs
