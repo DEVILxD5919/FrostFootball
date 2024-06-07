@@ -1,7 +1,7 @@
 # Football Plugin for PocketMine-MP
 
 Welcome to the Football plugin for PocketMine-MP! This plugin adds a fun and interactive football experience to your Minecraft server, allowing players to play football and enjoy their time.
-![Football Plugin](https://github.com/DEVILxD5919/Football/raw/main/football.png)
+![Football Plugin](https://github.com/DEVILxD5919/FrostFootball/raw/main/football.png)
 
 ## Features
 
@@ -16,7 +16,7 @@ Welcome to the Football plugin for PocketMine-MP! This plugin adds a fun and int
 
 ## Installation
 
-1. Download the latest release of the Football plugin from the [releases page](https://github.com/DEVILxD5919/Football/releases).
+1. Download the latest release of the Football plugin from the [releases page](https://github.com/DEVILxD5919/FrostFootball/releases).
 2. Place the downloaded `.phar` file into the `plugins` folder of your PocketMine-MP server.
 3. Restart your server to load the plugin.
 
@@ -41,11 +41,11 @@ We welcome contributions to the Football plugin! If you'd like to contribute, pl
 
 ## Issues
 
-If you encounter any issues or have suggestions for improvements, please open an issue on the [GitHub Issues](https://github.com/DEVILxD5919/Football/issues) page.
+If you encounter any issues or have suggestions for improvements, please open an issue on the [GitHub Issues](https://github.com/DEVILxD5919/FrostFootball/issues) page.
 
 ## License
 
-This project is licensed under the Apache License 2.0  See the [LICENSE](https://github.com/DEVILxD5919/Football/blob/main/LICENSE) file for details.
+This project is licensed under the Apache License 2.0  See the [LICENSE](https://github.com/DEVILxD5919/FrostFootball/blob/main/LICENSE) file for details.
 
 ## Contact
 
