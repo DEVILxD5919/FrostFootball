@@ -4,13 +4,15 @@ declare(strict_types=1);
 
 namespace devil\football;
 
+use JsonException;
+use devil\football\entity\FootballEntity;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use devil\football\entity\FootballEntity;
 use pocketmine\entity\EntityDataHelper;
 use pocketmine\entity\EntityFactory;
 use pocketmine\entity\Human;
 use pocketmine\nbt\tag\CompoundTag;
+use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\Server;
 use pocketmine\world\World;
@@ -18,7 +20,7 @@ use pocketmine\world\World;
 class Football extends PluginBase {
     private static Football $instance;
 
-    public static function getInstance(): Football{
+    public static function getInstance(): Football {
         return self::$instance;
     }
 
@@ -28,11 +30,11 @@ class Football extends PluginBase {
         $this->saveResource("football.json");
         $this->saveResource("football.png");
 
-        EntityFactory::getInstance()->register(FootballEntity::class, function(World $world, CompoundTag $nbt) : FootballEntity{
+        EntityFactory::getInstance()->register(FootballEntity::class, function(World $world, CompoundTag $nbt): FootballEntity {
             return new FootballEntity(EntityDataHelper::parseLocation($nbt, $world), Human::parseSkinNBT($nbt), $nbt);
         }, ["Football"]);
     }
-    
+
     /**
      * @throws JsonException
      */
