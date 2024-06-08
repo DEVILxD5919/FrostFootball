@@ -14,3 +14,10 @@ permissions:
   FrostFootball.remove.cmd:
     default: op
     description: Allow players to remove all footballs
+
+commands:
+  football:
+    description: Football Command
+    usage: /football <spawn | remove> [count]
+    permission: FrostFootball.use.cmd
+    aliases: [fb]
