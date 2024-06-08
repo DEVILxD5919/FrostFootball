@@ -2,7 +2,7 @@ name: Frost-Football
 version: 1.0.0
 api: 5.0.0
 main: devil\football\Football
-author: _devil_xd
+author: ["Matze997", "_devil_xd"]
 
 permissions:
   FrostFootball.use.cmd:
