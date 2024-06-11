@@ -49,7 +49,8 @@ This project is licensed under the Apache License 2.0  See the [LICENSE](https:/
 
 ## Contact
 
-For any questions or inquiries, feel free to reach out via GitHub or contact us at [support@frostnetwork.xyz](mailto:support@frostnetwork.xyz).
+For support, bug reports, and feature requests, please Join Our Discord Server the [discord](https://discord.gg/YfcDdK5mSF).
+or Email me at [support@frostnetwork.xyz](mailto:support@frostnetwork.xyz)
 
 Enjoy your time playing football on your PocketMine-MP server!
 
